@@ -3,131 +3,132 @@
         "id": 1,
         "image": "https://i.ibb.co/hDxmvGy/Rectangle-4284.png",
         "title": "Health",
-        "title-name": "Clean water for children",
+        "title_name": "Clean water for children",
         "description": "Prioritize regular exercise and a balanced diet to maintain a healthy weight and reduce the risk of chronic diseases. Don't neglect mental health; practice stress management and seek support when needed to maintain overall well-being.",
         "price": "$99.99",
-        "bg-color": "#F2E3C6",
-        "text-color": "#333",
-        "bg-title": "#FF5733"
+        "bg_color": "#bfdbfe",
+        "text_color": "#2563eb",
+        "bg_title": "#93c5fd"
     },
     {
         "id": 2,
         "image": "https://i.ibb.co/ZgQ2Bwg/Education.png",
         "title": "Education",
-        "title-name": "Good education",
+        "title_name": "Good education",
         "description": "A solid foundation in education opens doors to lifelong learning and opportunities for personal and professional growth. Embrace a curious mindset, seek knowledge from diverse sources, and continuously develop critical thinking skills to excel in your educational journey.",
         "price": "$199.99",
-        "bg-color": "#D4EDDA",
-        "text-color": "#155724",
-        "bg-title": "#28A745"
+        "bg_color": "#fecaca",
+        "text_color": "#dc2626",
+        "bg_title": "#fca5a5"
     },
     {
         "id": 3,
         "image": "https://i.ibb.co/42k6Zzb/Clothing.png",
         "title": "Clothing",
-        "title-name": "Used Clothing Drive",
+        "title_name": "Used Clothing Drive",
         "description": "Choose comfortable and well-fitting clothing that makes you feel confident and suits your style. Consider the impact of sustainable fashion choices to reduce environmental impact and support ethical practices in the clothing industry.",
         "price": "$299.99",
-        "bg-color": "#F8D7DA",
-        "text-color": "#721C24",
-        "bg-title": "#DC3545"
+        "bg_color": "#d9f99d",
+        "text_color": "#65a30d",
+        "bg_title": "#ecfccb"
     },
     {
         "id": 4,
         "image": "https://i.ibb.co/x11cCZH/Food.png",
         "title": "Food",
-        "title-name": "Better Food for Everyone",
+        "title_name": "Better Food for Everyone",
         "description": "Prioritize whole, unprocessed foods like fruits, vegetables, lean proteins, and whole grains in your diet to provide essential nutrients and fiber for better health. Limit the consumption of sugary beverages, highly processed snacks, and foods high in saturated fats and sodium to reduce the risk of chronic diseases and promote overall well-being.",
         "price": "$49.99",
-        "bg-color": "#CCE5FF",
-        "text-color": "#0056b3",
-        "bg-title": "#007BFF"
+        "bg_color": "#a5f3fc",
+        "text_color": "#0891b2",
+        "bg_title": "#22d3ee"
     },
     {
         "id": 5,
         "image": "https://i.ibb.co/x11cCZH/Food.png",
         "title": "Food",
-        "title-name": "Better Food for Everyone",
+        "title_name": "Better Food for Everyone",
         "description": "Prioritize whole, unprocessed foods like fruits, vegetables, lean proteins, and whole grains in your diet to provide essential nutrients and fiber for better health. Limit the consumption of sugary beverages, highly processed snacks, and foods high in saturated fats and sodium to reduce the risk of chronic diseases and promote overall well-being.",
         "price": "$49.99",
-        "bg-color": "#CCE5FF",
-        "text-color": "#0056b3",
-        "bg-title": "#007BFF"
+        "bg_color": "#a5f3fc",
+        "text_color": "#0891b2",
+        "bg_title": "#22d3ee"
     },
     {
         "id": 6,
         "image": "https://i.ibb.co/42k6Zzb/Clothing.png",
         "title": "Clothing",
-        "title-name": "Used Clothing Drive",
+        "title_name": "Used Clothing Drive",
         "description": "Choose comfortable and well-fitting clothing that makes you feel confident and suits your style. Consider the impact of sustainable fashion choices to reduce environmental impact and support ethical practices in the clothing industry.",
         "price": "$299.99",
-        "bg-color": "#F8D7DA",
-        "text-color": "#721C24",
-        "bg-title": "#DC3545"
+        "bg_color": "#d9f99d",
+        "text_color": "#65a30d",
+        "bg_title": "#ecfccb"
     },
     {
-        "id": 1,
+        "id": 7,
         "image": "https://i.ibb.co/ZgQ2Bwg/Education.png",
         "title": "Education",
-        "title-name": "Good education",
+        "title_name": "Good education",
         "description": "A solid foundation in education opens doors to lifelong learning and opportunities for personal and professional growth. Embrace a curious mindset, seek knowledge from diverse sources, and continuously develop critical thinking skills to excel in your educational journey.",
         "price": "$199.99",
-        "bg-color": "#D4EDDA",
-        "text-color": "#155724",
-        "bg-title": "#28A745"
+        "bg_color": "#fecaca",
+        "text_color": "#dc2626",
+        "bg_title": "#fca5a5"
     },
     {
-        "id": 1,
+        "id": 8,
         "image": "https://i.ibb.co/hDxmvGy/Rectangle-4284.png",
         "title": "Health",
-        "title-name": "Clean water for children",
+        "title_name": "Clean water for children",
         "description": "Prioritize regular exercise and a balanced diet to maintain a healthy weight and reduce the risk of chronic diseases. Don't neglect mental health; practice stress management and seek support when needed to maintain overall well-being.",
         "price": "$99.99",
-        "bg-color": "#F2E3C6",
-        "text-color": "#333",
-        "bg-title": "#FF5733"
-    },{
-        "id": 1,
-        "image": "https://i.ibb.co/hDxmvGy/Rectangle-4284.png",
-        "title": "Health",
-        "title-name": "Clean water for children",
-        "description": "Prioritize regular exercise and a balanced diet to maintain a healthy weight and reduce the risk of chronic diseases. Don't neglect mental health; practice stress management and seek support when needed to maintain overall well-being.",
-        "price": "$99.99",
-        "bg-color": "#F2E3C6",
-        "text-color": "#333",
-        "bg-title": "#FF5733"
+        "bg_color": "#bfdbfe",
+        "text_color": "#2563eb",
+        "bg_title": "#93c5fd"
     },
     {
-        "id": 2,
+        "id": 9,
+        "image": "https://i.ibb.co/hDxmvGy/Rectangle-4284.png",
+        "title": "Health",
+        "title_name": "Clean water for children",
+        "description": "Prioritize regular exercise and a balanced diet to maintain a healthy weight and reduce the risk of chronic diseases. Don't neglect mental health; practice stress management and seek support when needed to maintain overall well-being.",
+        "price": "$99.99",
+        "bg_color": "#bfdbfe",
+        "text_color": "#2563eb",
+        "bg_title": "#93c5fd"
+    },
+    {
+        "id": 10,
         "image": "https://i.ibb.co/ZgQ2Bwg/Education.png",
         "title": "Education",
-        "title-name": "Good education",
+        "title_name": "Good education",
         "description": "A solid foundation in education opens doors to lifelong learning and opportunities for personal and professional growth. Embrace a curious mindset, seek knowledge from diverse sources, and continuously develop critical thinking skills to excel in your educational journey.",
         "price": "$199.99",
-        "bg-color": "#D4EDDA",
-        "text-color": "#155724",
-        "bg-title": "#28A745"
+        "bg_color": "#fecaca",
+        "text_color": "#dc2626",
+        "bg_title": "#fca5a5"
     },
     {
-        "id": 3,
+        "id": 11,
         "image": "https://i.ibb.co/42k6Zzb/Clothing.png",
         "title": "Clothing",
-        "title-name": "Used Clothing Drive",
+        "title_name": "Used Clothing Drive",
         "description": "Choose comfortable and well-fitting clothing that makes you feel confident and suits your style. Consider the impact of sustainable fashion choices to reduce environmental impact and support ethical practices in the clothing industry.",
         "price": "$299.99",
-        "bg-color": "#F8D7DA",
-        "text-color": "#721C24",
-        "bg-title": "#DC3545"
+        "bg_color": "#d9f99d",
+        "text_color": "#65a30d",
+        "bg_title": "#ecfccb"
     },
     {
-        "id": 4,
+        "id": 12,
         "image": "https://i.ibb.co/x11cCZH/Food.png",
         "title": "Food",
-        "title-name": "Better Food for Everyone",
+        "title_name": "Better Food for Everyone",
         "description": "Prioritize whole, unprocessed foods like fruits, vegetables, lean proteins, and whole grains in your diet to provide essential nutrients and fiber for better health. Limit the consumption of sugary beverages, highly processed snacks, and foods high in saturated fats and sodium to reduce the risk of chronic diseases and promote overall well-being.",
         "price": "$49.99",
-        "bg-color": "#CCE5FF",
-        "text-color": "#0056b3",
-        "bg-title": "#007BFF"
+        "bg_color": "#a5f3fc",
+        "text_color": "#0891b2",
+        "bg_title": "#22d3ee"
     }
 ]

@@ -4,15 +4,16 @@ import HomePage from "../componets/HomePage/HomePage";
 
 const myCreatedRouter = createBrowserRouter([
     {
-      path: "/",
-      element: <Home></Home>,
-      children: [
-        {
-            path: '/',
-            element: <HomePage></HomePage>
-        }
-      ]
+        path: "/",
+        element: <Home></Home>,
+        children: [
+            {
+                path: '/',
+                element: <HomePage></HomePage>,
+                loader: () => fetch('/data.json')
+            }
+        ]
     },
-  ]);
+]);
 
 export default myCreatedRouter;
