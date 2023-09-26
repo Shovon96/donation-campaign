@@ -61,8 +61,8 @@ const CardDetails = () => {
             <div>
                 <img className="h-[70vh] w-full" src={image} alt="" />
             </div>
-            <div className="absolute top-[445px] lg:top-[407px] inset-0 bg-black opacity-50  max-w-7xl h-36 w-full  mx-auto"></div>
-            <div className="absolute bottom-24 ml-14 lg:bottom-44 lg:ml-20">
+            <div className="absolute top-[445px] md:top-[377px] lg:top-[407px] inset-0 bg-black opacity-50  max-w-7xl h-36 w-full  mx-auto"></div>
+            <div className="absolute bottom-24 ml-14 md:bottom-36 lg:bottom-44 lg:ml-20">
                 <NavLink>
                     <button onClick={handleDonateCategories} className="btn text-white font-semibold border-none" style={bgBtn}>Donate {price}</button>
                 </NavLink>

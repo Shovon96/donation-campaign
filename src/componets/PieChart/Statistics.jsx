@@ -1,4 +1,4 @@
-import { PieChart, Pie, Cell } from 'recharts';
+import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
 
 const COLORS = ['#FF444A', '#00C49F'];
 
@@ -28,7 +28,7 @@ const Statistics = () => {
     <div className='flex justify-center items-center'>
       <div>
         <PieChart width={400} height={400}>
-          <Pie
+          <Pie 
             data={data}
             cx="50%"
             cy="50%"
@@ -42,11 +42,9 @@ const Statistics = () => {
               <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
             ))}
           </Pie>
+          <Legend verticalAlign="center" align="center" />
+          <Tooltip />
         </PieChart>
-      </div>
-      <div>
-        <h1 className='text-xl font-semibold my-2'>Total donation<span className='bg-[#FF444A] text-[#FF444A] ml-2'>hello</span></h1>
-        <h1 className='text-xl font-semibold my-2'>Your donation<span className='bg-[#00C49F] text-[#00C49F] ml-2'>hello</span></h1>
       </div>
     </div>
   );
