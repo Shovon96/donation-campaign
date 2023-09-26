@@ -27,11 +27,14 @@ const Donation = () => {
                     }
                 </div>
             }
-            <div className="flex justify-center my-4">
-                <button onClick={() => setIsShowAll(!isShowAll)} className="btn btn-success font-semibold text-white text-lg capitalize">
-                    {isShowAll ? 'See Less' : 'See All'}
-                    </button>
-            </div>
+            {donation.length > 4 && (
+                <button
+                    onClick={() => setIsShowAll(!isShowAll)}
+                    className="my-10 px-5 py-2 rounded-lg bg-red-400 text-white font-semibold block mx-auto"
+                >
+                    {isShowAll ? "Show Less" : "Show More"}
+                </button>
+            )}
         </div>
     );
 };

@@ -57,11 +57,11 @@ const CardDetails = () => {
 
 
     return (
-        <div>
+        <div className="w-full">
             <div>
                 <img className="h-[70vh] w-full" src={image} alt="" />
             </div>
-            <div className="absolute top-[495px] lg:top-[457px] inset-0 bg-black opacity-50 h-36 w-full lg:w-[85%] mx-auto"></div>
+            <div className="absolute top-[445px] lg:top-[407px] inset-0 bg-black opacity-50  max-w-7xl h-36 w-full  mx-auto"></div>
             <div className="absolute bottom-24 ml-14 lg:bottom-44 lg:ml-20">
                 <NavLink>
                     <button onClick={handleDonateCategories} className="btn text-white font-semibold border-none" style={bgBtn}>Donate {price}</button>

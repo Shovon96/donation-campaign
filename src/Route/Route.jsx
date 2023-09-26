@@ -4,6 +4,7 @@ import HomePage from "../componets/HomePage/HomePage";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import CardDetails from "../componets/DonationCard/CardDetails";
 import Donation from "../componets/DonationPage/Donation";
+import Statistics from "../componets/PieChart/Statistics";
 
 const myCreatedRouter = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const myCreatedRouter = createBrowserRouter([
             {
                 path: '/donation',
                 element: <Donation></Donation>
+            },
+            {
+                path: "/statistics",
+                element: <Statistics></Statistics>
             }
         ]
     },
