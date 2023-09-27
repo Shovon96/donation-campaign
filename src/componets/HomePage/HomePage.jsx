@@ -11,7 +11,7 @@ const HomePage = () => {
     const handleSearch = () => {
 
         const filteredResults = data.filter((item) =>
-        item.title.includes(searchItem)
+        item.category.includes(searchItem)
         );
         setResults(filteredResults);
     };

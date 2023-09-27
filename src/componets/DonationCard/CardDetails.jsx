@@ -14,7 +14,7 @@ const CardDetails = () => {
       const findCard = donatinCards?.find((card) => card.id == id);
       setCards(findCard);
     }, [id, donatinCards]);
-    const { image, price, title_name, description, text_color } = cards;
+    const { image, price, title, description, text_color } = cards;
 
     const bgBtn = {
         backgroundColor: text_color
@@ -68,7 +68,7 @@ const CardDetails = () => {
                 </NavLink>
             </div>
             <div className="my-14 px-5 lg:px-0">
-                <h1 className="text-5xl font-bold my-5">{title_name}</h1>
+                <h1 className="text-5xl font-bold my-5">{title}</h1>
                 <p className="text-lg text-gray-500 font-medium">{description}</p>
             </div>
         </div>
