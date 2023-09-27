@@ -9,8 +9,8 @@ const Banner = ({ handleSearch, searchItem, setSearchItem }) => {
                 <div className=" text-center mx-auto w-full">
                     <h1 className="text-4xl md:text-6xl font-bold text-black">I Grow By Helping People In Need</h1>
                     <div className=" my-8">
-                        <input onChange={(e) => setSearchItem(e.target.value)} value={searchItem}  type="text" placeholder="Type here" className="py-3 px-4 rounded-tl-lg text-black rounded-bl-lg input-bordered w-60 md:w-full max-w-xs" />
-                        <button onClick={handleSearch} data-ripple-light="true" className="px-8 py-3 rounded-tr-lg rounded-br-lg btn-error text-white font-semibold">Search</button>
+                        <input onChange={(e) => setSearchItem(e.target.value)} value={searchItem}  type="text" placeholder="Type here" className="py-3 px-4 rounded-tl-lg text-black rounded-bl-lg input-bordered w-48 md:w-full max-w-xs" />
+                        <button onClick={handleSearch} data-ripple-light="true" className=" px-5 py-2 md:px-8 md:py-3 rounded-tr-lg rounded-br-lg btn-error text-white font-semibold">Search</button>
                     </div>
                 </div>
             </div>
