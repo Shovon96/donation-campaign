@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 const Banner = ({ handleSearch, searchItem, setSearchItem }) => {
 
     return (
@@ -15,5 +17,11 @@ const Banner = ({ handleSearch, searchItem, setSearchItem }) => {
         </div>
     );
 };
+
+Banner.propTypes = {
+    handleSearch: PropTypes.object.isRequired,
+    searchItem: PropTypes.object.isRequired,
+    setSearchItem: PropTypes.object.isRequired
+}
 
 export default Banner;

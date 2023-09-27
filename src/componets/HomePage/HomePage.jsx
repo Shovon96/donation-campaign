@@ -9,22 +9,22 @@ const HomePage = () => {
     const [results, setResults] = useState(data);
     const [searchItem, setSearchItem] = useState();
     const handleSearch = () => {
+
         const filteredResults = data.filter((item) =>
-        item.category.includes(searchItem)
+        item.title.includes(searchItem)
         );
         setResults(filteredResults);
     };
-
 
 
     return (
         <div>
             <Banner
                 handleSearch={handleSearch}
-                query={searchItem}
-                setQuery={setSearchItem}
+                searchItem={searchItem}
+                setSearchItem={setSearchItem}
             ></Banner>
-            <DonationCards></DonationCards>
+            <DonationCards results={results}></DonationCards>
         </div>
     );
 };
