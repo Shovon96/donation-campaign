@@ -19,9 +19,9 @@ const Banner = ({ handleSearch, searchItem, setSearchItem }) => {
 };
 
 Banner.propTypes = {
-    handleSearch: PropTypes.object.isRequired,
-    searchItem: PropTypes.object.isRequired,
-    setSearchItem: PropTypes.object.isRequired
+    handleSearch: PropTypes.func.isRequired,
+    searchItem: PropTypes.string,
+    setSearchItem: PropTypes.func.isRequired
 }
 
 export default Banner;

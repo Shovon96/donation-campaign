@@ -20,7 +20,7 @@ const DonationCards = ( {results}) => {
 };
 
 DonationCards.propTypes = {
-    results: PropTypes.object.isRequired
+    results: PropTypes.array.isRequired
 }
 
 export default DonationCards;
