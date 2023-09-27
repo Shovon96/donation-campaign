@@ -20,8 +20,8 @@ const Statistics = () => {
 
   let chartData = [];
 
-  if (donationItems.length === 0) {
-    chartData = [{ name: 'Total Donation', value: 100 }];
+  if (donationItems <= 0) {
+    chartData = [{ name: 'Total Donation', value: 12 }];
   } else {
     chartData = [
       { name: 'Total Donation', value: (12 - donationItems.length) },
